@@ -302,10 +302,6 @@ const keyup = (key) => {
   }
 };
 
-function mouseDown(event) {
-  console.log(event);
-}
-
 let board = generateNewPuzzle(80);
 
 function update() {
@@ -317,4 +313,3 @@ function update() {
 
 update();
 
-canvas.addEventListener("mousedown", mouseDown);
